@@ -1,3 +1,3 @@
 # runestone-tools
 
-Scripts to parse runestone progress reading log files. 
+Scripts to parse runestone reading progress log files. 
