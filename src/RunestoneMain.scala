@@ -55,6 +55,8 @@ object RunestoneMain {
         val compl = fields(4)
         if (event.equals("video") && !compl.equals("complete"))
           break
+        if (event.equals("unittest") && !compl.contains("percent:100.00"))
+          break
         val act   = fields(5)
         val item = (event, act)
         if (asg.contains(item) && !completed.contains(item))
